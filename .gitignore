@@ -1,0 +1,42 @@
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Ignore data files
+*.csv
+*.xlsx
+*.json
+*.xml
+*.sql
+
+# Ignore Python environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Ignore Jupyter Notebook files
+.ipynb_checkpoints
+
+# Ignore Machine Learning model files
+*.h5
+*.model
+*.pkl
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore directories created by pytest
+.pytest_cache/
+
+# Ignore directories created by vscode
+.vscode/
