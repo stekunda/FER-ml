@@ -8,7 +8,7 @@ TRAIN_DATA_PATH = os.path.join(
 # Reducing the amount of data to 1000 samples per class for faster training
 def delete_files(directory, num_files_to_keep):
     for subdir in os.listdir(directory):
-        if subdir == 'disgust':
+        if subdir == 'angry':
             continue
         subdir_path = os.path.join(directory, subdir)
         if os.path.isdir(subdir_path):
